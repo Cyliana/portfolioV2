@@ -1,0 +1,53 @@
+/** GENERAL **/
+
+@font-face 
+{
+    font-family: 'Gabriola';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gabriola'), url('fonts/gabriola.woff') format('woff');
+}
+
+@font-face 
+{
+    font-family: 'Dubai Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dubai Light'), url('fonts/dubai-light.woff') format('woff');
+}
+    
+html
+{
+    scroll-behavior: smooth;
+}
+
+.img-size
+{
+    display: block;
+    width: 100%;
+    height: 24vh;
+    object-fit: cover;
+}
+
+main
+{
+    font-family: 'Dubai Light';
+    color:#69465C;
+}
+
+.btn-purple
+{
+    background-color: #69465C;
+    color: white;
+}
+
+.btn-purple:hover
+{
+    background-color: #59095B;
+    color: white;
+}
+
+.gabriola
+{
+    font-family:'Gabriola'!important;
+}
