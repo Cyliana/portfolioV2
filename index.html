@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="Mon portfolio de développeuse web : mes projets, les technologies que j'utilise, les « autorités » que je suis.">
+  <meta name="Mon portfolio de développeuse web : mes projets, les technologies que j'utilise, les « autorités » que je suis.">
   <title>Amanda Taddei</title>
   <script src="https://kit.fontawesome.com/d09bd1977e.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,47 +15,41 @@
 
 <body>
   <main class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
+                                                  <!-- SECTION NAVIGATION-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ffffff;">
+
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">À propos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="index.html">Projets</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <img src="img/amanda.png" id="medallion" alt="index.html">
+          <ul class="navbar-nav nav-item">
+            <li class="me-2">
+                <a class="nav-link" href="index.html">Inspirations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="moodboard.html">Moodboard</a>
+            </li>
+          </ul>
         </div>
+
       </div>
+
     </nav>
-    <!-- SECTION PORTFOLIO-->
+                                                  <!-- SECTION PORTFOLIO-->
+
     <div class="row">
       <div class="col-md-4 col-sm-12 d-flex justify-content-center">
         <div class="card" style="width: 18rem;">
@@ -97,58 +90,20 @@
         </div>
       </div>
     </div>
-    <!-- SECTION INSPIRATION-->
+                                                                <!-- SECTION INSPIRATION-->
+
+    <div class="title-section"><h1>Mes Inspirations, ma veille</h1></div>
     <div class="row">
-      <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-5">
+      <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-5 order-md-1">
         <img src="img/prieur.jpg" class="card-img-top img-size"
           alt="Développeur web, bloggeur et youtubeur Olivier Prieur">
       </div>
-      <div class="col-md-8 col-sm-12 mt-5">
+      <div class="col-md-8 col-sm-12 mt-5 order-md-2">
         <div class="card-body">
           <h5 class="card-title">Olivier Prieur</h5>
-          <p class="card-text">Olivier Prieur est un développeur web, linuxien et libriste qui tient un blog sur divers
+          <p class="card-text">Olivier Prieur est un développeur web formé à l'Access Code School, linuxien et libriste qui tient un blog sur divers
             sujets en rapport avec l'informatique: le framework Symfony, la crypto-monnaie Pengolincoin qu'il a fondé,
-            et
-            l'administration de serveurs Linux.Il tient aussi une chaîne Youtube sur laquelle il diffuse des tutoriels
-            techniques. </p>
-          <a href="https://www.citizenz.info/" class="btn btn-purple"><i class="fas fa-link"></i></a>
-          <a href="https://github.com/citizenz7" class="btn btn-purple"><i class="fab fa-github"></i></a>
-          <a href="https://www.youtube.com/channel/UCCGHyWn7Wd08gt0N4yp77Dw" class="btn btn-purple"><i
-              class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-8 col-sm-12 mt-5">
-        <div class="card-body">
-          <h5 class="card-title">Micode</h5>
-          <p class="card-text">Micode est un étudiant qui vulgarise l'informatique afin que tout a chacun puisse le
-            comprendre de facon simple.</p>
-          <a href="https://github.com/micodeyt" class="btn btn-purple"><i class="fab fa-github"></i></a>
-          <a href="https://www.youtube.com/channel/UCYnvxJ-PKiGXo_tYXpWAC-w" class="btn btn-purple"><i
-              class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-5">
-        <img src="img/micode.jpg" class="card-img-top img-size"
-          alt="Développeur web, bloggeur et youtubeur Olivier Prieur">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-5">
-        <img src="img/prieur.jpg" class="card-img-top img-size"
-          alt="Développeur web, bloggeur et youtubeur Olivier Prieur">
-      </div>
-
-      <div class="col-md-8 col-sm-12 mt-5">
-        <div class="card-body">
-          <h5 class="card-title">Olivier Prieur</h5>
-          <p class="card-text">Olivier Prieur est un développeur web, linuxien et libriste qui tient un blog sur divers
-            sujets en rapport avec l'informatique: le framework Symfony, la crypto-monnaie Pengolincoin qu'il a fondé,
-            et l'administration de serveurs Linux.Il tient aussi une chaîne Youtube sur laquelle il diffuse des
-            tutoriels techniques. </p>
+            et l'administration de serveurs Linux.<br>Il tient aussi une chaîne Youtube sur laquelle il diffuse des tutoriels techniques.</p>
           <a href="https://www.citizenz.info/" class="btn btn-purple"><i class="fas fa-link"></i></a>
           <a href="https://github.com/citizenz7" class="btn btn-purple"><i class="fab fa-github"></i></a>
           <a href="https://www.youtube.com/channel/UCCGHyWn7Wd08gt0N4yp77Dw" class="btn btn-purple"><i
@@ -157,56 +112,53 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 col-sm-12 mt-5">
+      <div class="col-md-4 col-sm-12 d-flex justify-content-center order-md-2">
+        <img src="img/micode.jpg" class="card-img-top img-size"
+          alt="Etudiant, Micode">
+      </div>
+      <div class="col-md-8 col-sm-12 mt-5 order-md-1">
         <div class="card-body">
           <h5 class="card-title">Micode</h5>
           <p class="card-text">Micode est un étudiant qui vulgarise l'informatique afin que tout a chacun puisse le
-            comprendre de facon simple.</p>
+            comprendre.<br>En partenariat avec d'autres créateurs il a creer en 2020 une agence de marketing d’influence: Frame 55.</p>
+            <a href="https://frame55.agency/" class="btn btn-purple"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/micodeyt" class="btn btn-purple"><i class="fab fa-github"></i></a>
+          <a href="https://www.youtube.com/channel/UCYnvxJ-PKiGXo_tYXpWAC-w" class="btn btn-purple"><i
+            class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-5 order-md-1">
+        <img src="img/guillemet.jpg" class="card-img-top img-size"
+          alt="Chargée de communication Clémence Guillemet">
+      </div>
+      <div class="col-md-8 col-sm-12 mt-5 order-md-2">
+        <div class="card-body">
+          <h5 class="card-title">Clémence Guillemet</h5>
+          <p class="card-text">Clémence Guillemet est étudiante en Master Management des Stratégies Marketing et Communication à Reims. elle effectue ses études en alternance à la SNCF au poste de Chargée de Communication Création de Contenu.<br>Elle propose sur son profil Linkedin des carrousel simples, efficaces et pleins de conseils. </p>
+          <a href="http://clemenceguillemet.fr/" class="btn btn-purple"><i class="fas fa-link"></i></a>
+          <a href="https://www.linkedin.com/in/cl%C3%A9mence-guillemet/" class="btn btn-purple"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-5 order-md-2">
+        <img src="img/micode.jpg" class="card-img-top img-size"
+          alt="Développeur web, bloggeur et youtubeur Olivier Prieur">
+      </div>
+      <div class="col-md-8 col-sm-12 mt-5 order-md-1">
+        <div class="card-body">
+          <h5 class="card-title">Micode</h5>
+          <p class="card-text">Micode est un étudiant qui vulgarise l'informatique afin que tout a chacun puisse le
+            comprendre de façon simple.</p>
           <a href="https://github.com/micodeyt" class="btn btn-purple"><i class="fab fa-github"></i></a>
           <a href="https://www.youtube.com/channel/UCYnvxJ-PKiGXo_tYXpWAC-w" class="btn btn-purple"><i
               class="fab fa-youtube"></i></a>
         </div>
-      </div>
-      <div class="col-md-4 col-sm-12 d-flex justify-content-center mt-5">
-        <img src="img/micode.jpg" class="card-img-top img-size"
-          alt="Développeur web, bloggeur et youtubeur Olivier Prieur">
       </div>
     </div>
   </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"

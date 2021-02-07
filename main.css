@@ -21,6 +21,19 @@ html
     scroll-behavior: smooth;
 }
 
+
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-image:url(img/background.jpg);
+}
+
+#medallion
+{
+    width: 6vw;
+}
+
 .img-size
 {
     display: block;
@@ -51,3 +64,60 @@ main
 {
     font-family:'Gabriola'!important;
 }
+
+.title-section
+{
+    font-family:'Gabriola';
+    display: flex;
+    justify-content:center;
+    margin-top:50px;
+    padding-top:10px;
+    background-color:#EC9ECF;
+    border-radius: 20px;;
+}
+
+
+
+
+
+
+
+/* Horizontal scrolling  */
+
+  .slide 
+  {
+    width: 240vw;
+    height: 96vh;
+  }
+
+  .wrapper 
+  {
+    display: flex;
+    flex-direction: row;
+    width: 240vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+  }
+
+  .outer-wrapper 
+  {
+    width: 96vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  ::-webkit-scrollbar 
+  {
+    display:none;
+  }
+
+  .slide img 
+  {
+      width: 24vw;
+  }
