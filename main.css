@@ -72,10 +72,17 @@ main
     justify-content:center;
     margin-top:50px;
     padding-top:10px;
-    background-color:#EC9ECF;
-    border-radius: 20px;;
 }
 
+hr.style-two 
+{
+    width: 800px;
+    margin: auto;
+    border: 0;
+    height: 0;
+    border-top: medium double #59095B;
+    color: #59095B;
+}
 
 
 
@@ -86,22 +93,22 @@ main
 
   .slide 
   {
-    width: 240vw;
-    height: 96vh;
+    width: 400vw;
+    height: 100vh;
   }
 
   .wrapper 
   {
     display: flex;
     flex-direction: row;
-    width: 240vw;
+    width: 400vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
   }
 
   .outer-wrapper 
   {
-    width: 96vh;
+    width: 100vh;
     height: 100vw;
     transform: rotate(-90deg) translateX(-100vh);
     transform-origin: top left;
@@ -119,5 +126,5 @@ main
 
   .slide img 
   {
-      width: 24vw;
+      width:24vw;
   }
