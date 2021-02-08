@@ -67,24 +67,24 @@ main
 
 .title-section
 {
-    font-family:'Gabriola';
     display: flex;
-    justify-content:center;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: center;
     margin-top:50px;
     padding-top:10px;
 }
 
-hr.style-two 
+h1
 {
-    width: 800px;
-    margin: auto;
-    border: 0;
-    height: 0;
-    border-top: medium double #59095B;
+    font-family:'Gabriola';
     color: #59095B;
 }
 
-
+.cv
+{
+    width:80%;
+}
 
 
 
