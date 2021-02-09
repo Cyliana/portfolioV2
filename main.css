@@ -80,6 +80,7 @@ h1
 {
     font-family:'Gabriola';
     color: #59095B;
+    text-align:center;
 }
 
 #essential
@@ -87,7 +88,7 @@ h1
     background-color: #ffffff;
     font-family:'Gabriola';
     color: #59095B;
-    font-size: 60px;
+    font-size: 4vw;
     height: min-content;
     align-self: center;
     text-align: center;
@@ -97,6 +98,7 @@ h1
 #mycv
 {
     width:50vw;
+    align-self: center;
 
 }
 
@@ -109,7 +111,8 @@ h1
 {
     display: flex;
     flex-direction: column;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact
