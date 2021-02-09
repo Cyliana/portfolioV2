@@ -74,6 +74,7 @@ main
     margin-top:50px;
     padding-top:10px;
     background-color: #ffffff;
+    width: 100%;
 }
 
 h1
@@ -81,6 +82,7 @@ h1
     font-family:'Gabriola';
     color: #59095B;
     text-align:center;
+    padding-top: 5px;
 }
 
 #essential
@@ -98,8 +100,7 @@ h1
 #mycv
 {
     width:50vw;
-    align-self: center;
-
+    margin-top:50px;
 }
 
 .no-speech
@@ -113,6 +114,7 @@ h1
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5px;;
 }
 
 .contact
