@@ -85,13 +85,14 @@ h1
     padding-top: 5px;
 }
 
+
+                    /** A PROPOS **/
 #essential
 {
     background-color: #ffffff;
     font-family:'Gabriola';
     color: #59095B;
-    font-size: 4vw;
-    height: min-content;
+    font-size:3em;
     align-self: center;
     text-align: center;
     padding: 0px 15px;
@@ -105,7 +106,7 @@ h1
 
 .no-speech
 {
-    height: 50vh;
+    height:70vh;
 }
 
 .bloc-cv
@@ -125,20 +126,19 @@ h1
 }
 
 
-
 /* Horizontal scrolling  */
 
   .slide 
   {
-    width: 300vw;
-    height: 100vh;
+    width: 200vw;
+    height:auto;
   }
 
   .wrapper 
   {
     display: flex;
     flex-direction: row;
-    width: 300vw;
+    width: 200vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
   }
@@ -163,8 +163,13 @@ h1
 
   .slide img 
   {
-      width:24vw;
+      width:20vw;
   }
+
+
+
+
+
 
 
 
