@@ -122,7 +122,9 @@ h1
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5px;;
+    padding-top: 5px;
+    width: 100%;
+    text-align: center;
 }
 
 .contact
