@@ -29,6 +29,13 @@ body
     background-image:url(img/background.jpg);
 }
 
+.navig
+{
+  Display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #medallion
 {
     width: 6vw;
@@ -163,11 +170,8 @@ h1
 
   .slide img 
   {
-      width:20vw;
+    width:20vw;
   }
-
-
-
 
 
 
