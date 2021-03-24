@@ -21,15 +21,15 @@ padding: 0px 15px;
 
   .slide 
   {
-    width: 200vw;
+    width: 100vw;
     height:auto;
   }
 
   .wrapper 
   {
     display: flex;
-    flex-direction: row;
-    width: 200vw;
+    flex-direction:column;
+    width: 100vw;
   }
 
   .outer-wrapper 
