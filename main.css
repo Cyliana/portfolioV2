@@ -1,105 +1,188 @@
-/** GENERAL **/
+/************************************** GENERAL **************************************/
 
-@font-face {
+@font-face 
+{
     font-family: 'Gabriola';
     font-style: normal;
     font-weight: normal;
     src: local('Gabriola'), url('fonts/gabriola.woff') format('woff');
 }
 
-@font-face {
+@font-face 
+{
     font-family: 'Dubai Light';
     font-style: normal;
     font-weight: normal;
     src: local('Dubai Light'), url('fonts/dubai-light.woff') format('woff');
 }
 
-html {
+html 
+{
     scroll-behavior: smooth;
 }
 
-body {
+html, body, p
+{
+    width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(img/background.jpg);
 }
 
-.navig {
-    Display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#medallion {
-    width: 6vw;
-}
-
-.img-size {
-    display: block;
-    width: 100%;
-    height: 24vh;
-    object-fit: cover;
-}
-
-main {
+main 
+{
+    width:100%;
     font-family: 'Dubai Light';
-    color: #69465C;
 }
 
-.btn-purple {
+h1 
+{
+    font-family: 'Gabriola';
+    font-weight: lighter;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    background-color:none;
+    width: 100%;
+}
+
+.h1light
+{
+    color :#59095B;
+}
+
+.btn-purple 
+{
     background-color: #69465C;
     color: white;
+    width: 100px;
+    border-radius: 3px;
 }
 
-.btn-purple:hover {
+.btn-purple:hover 
+{
     background-color: #59095B;
     color: white;
 }
 
-.gabriola {
-    font-family: 'Gabriola'!important;
+.btn-purple-dark
+{
+    background-color: #69465C;
+    color: white;
+    width: 100px;
+    border-radius: 3px;
+    margin-bottom: 30px;
 }
 
-.title-section {
+.btn-purple-dark:hover 
+{
+    background-color: #000000;
+    color: white;
+}
+
+/************************************** NAVIGATION **************************************/
+
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin:10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover
+{
+    color:#000000;
+}
+
+nav
+{
+    width: 100%;
+}
+
+.navig 
+{
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59095B;
+}
+
+/************************************** PHRASE ACCROCHE **************************************/
+
+.title-section 
+{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
-    padding-top: 10px;
-    background-color: #ffffff;
+    background-color:none;
     width: 100%;
 }
 
-h1 {
-    font-family: 'Gabriola';
-    color: #59095B;
-    text-align: center;
-    padding-top: 5px;
+.no-speech 
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/clavier1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    display:flex;
 }
 
-/** A PROPOS **/
-
-#essential {
+#essential 
+{
+    margin: auto 0;
     background-color: #ffffff;
     font-family: 'Gabriola';
     color: #59095B;
-    font-size: 3em;
-    align-self: center;
+    font-size: 4em;
     text-align: center;
     padding: 0px 15px;
-}
+    width: 100%;
+    margin :auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0),#59095B,#fff ,#59095B,rgba(255, 255, 255, 0));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 5s linear infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate 
+  {
+    0% 
+    {
+      background-position: -500%;
+    }
 
-#mycv {
+    100% 
+    {
+      background-position: 500%;
+    }
+  }
+
+/************************************** CV - PARCOURS **************************************/
+
+#mycv 
+{
     width: 50vw;
     margin-top: 50px;
 }
 
-.no-speech {
-    height: 70vh;
-}
 
-.bloc-cv {
+.bloc-cv 
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,33 +190,92 @@ h1 {
     padding-top: 5px;
     width: 100%;
     text-align: center;
+    background-color: #59095B;
+    color: rgb(255, 255, 255);
 }
 
-.contact {
+#parcours
+{
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    background-color: #59095B;
+    color:#fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#softskills
+{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #69465C;
+    clip-path: polygon(0% 0%, 50% 50%, 50% 50%, 0% 100%);
+    z-index:10;
+} 
+ 
+#technos
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 0% 100%);
+}
+
+#experiences
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #5a4d5a;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%);
+}
+
+
+/************************************** CONTACT **************************************/
+.contact 
+{
     display: block;
     width: 100%;
-    padding: 16px;
 }
 
-/* Horizontal scrolling  */
+form textarea
+{
+    width: 180px;
+}
 
-.slide {
-    width: 200vw;
+form input,textarea
+{
+    padding: 5px;
+}
+
+/************************************** MOODBOARD **************************************/
+
+.slide 
+{
+    width: 00vw;
     height: auto;
 }
 
-.wrapper {
+.wrapper 
+{
     display: flex;
     flex-direction: row;
     width: 200vw;
-    transform: rotate(90deg) translateY(-100vh);
+    transform: rotate(90deg) translateY(-200vh);
     transform-origin: top left;
 }
 
-.outer-wrapper {
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
+.outer-wrapper 
+{
+    width: 200vh;
+    height: 200vw;
+    transform: rotate(-90deg) translateX(-200vh);
     transform-origin: top left;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -142,20 +284,25 @@ h1 {
     -ms-overflow-style: none;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar 
+{
     display: none;
-}
+} */
 
-.slide img {
+.slide img 
+{
     width: 20vw;
 }
 
-footer {
+/************************************** FOOTER **************************************/
+
+footer 
+{
     display: flex;
     justify-content: center;
-    background-color: #ffffff;
     font-family: 'Dubai Light';
-    color: #69465C;
+    color: #ffffff;
     text-align: center;
     margin-top: 50px;
+    background-color: #59095B;
 }

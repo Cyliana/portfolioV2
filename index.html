@@ -2,94 +2,108 @@
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Mon portfolio de développeuse web : mes projets, les technologies que j'utilise, les « autorités » que je suis.">
-  <title>Amanda Taddei</title>
-  <script src="https://kit.fontawesome.com/d09bd1977e.js" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" media="screen and (max-width: 576px)" href="styles-mobile.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="Mon portfolio de développeuse web : mes projets, les technologies que j'utilise, les « autorités » que je suis.">
+    <title>Amanda Taddei</title>
+    <script src="https://kit.fontawesome.com/d09bd1977e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="screen and (max-width: 576px)" href="styles-mobile.css">
 </head>
 
 <body>
-  <main class="container">
+    <main>
 
-    <!-- SECTION NAVIGATION-->
+        <!-- SECTION NAVIGATION-->
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#ffffff;">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav>
+            <div class="container">
+                <div class="navig">
+                    <ul id="nav1">
+                        <li><a aria-current="page" href="index.html">À propos</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="inspirations.html">Inspirations</a></li>
+                        <li><a href="moodboard.html">Moodboard</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <div class="navig">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">À propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="projets.html">Projets</a>
-              </li>
-            </ul>
-            <img src="img/amanda.png" id="medallion" alt="index.html">
-            <ul class="navbar-nav nav-item">
-              <li class="me-2">
-                <a class="nav-link" href="inspirations.html">Inspirations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="moodboard.html">Moodboard</a>
-              </li>
-            </ul>
-          </div>
+        <div class="no-speech">
+            <p id="essential">« Pas de grand discours, juste l'essentiel » - Amanda Taddei</p>
         </div>
-      </div>
-    </nav>
+        <div class="bloc-cv">
+            <div class="title-section">
+                <h1>Mon Cv , Mon parcours</h1>
+            </div>
+        </div>
+        <div id="parcours">
+                <div id="softskills">
+                    <p>Curieuse</p>
+                    <p>Rigoureuse</p>
+                    <p>Dynamique</p>
+                    <p>Adaptable</p>
+                    <p>Organisée</p>
+                </div>
+                <div id="experiences">
+                    <p>2020 / aujourd'hui - Formation pré-qualifiante et formation qualifiante Developpement Web et Web mobile.</p>
+                    <p>2019/2020 - Renault Trucks - Opératricce</br>-assemblage des radiateurs moteurs</br></p>
+                    <p>2017/2019 - L'instant Bar Restaurant - Gérante</br> - Mise en place</br>-gestion administrative</br>gestion des stocks</br>-serveuse</br>-Entretien journalier des locaux</p>
+                    <p>2017 - Formation gestion d'entreprise</p>
+                    <p>2013/2016 - CAF DE L'AIN - Conseillère offres de services</br>-Accueillir l'allocataire</br>-le conseiller et l'orienter vers le CAF.FR</p>
+                    <p>2007 - BEP Vente Action Marchande</p>
+                </div>
+            <div id="technos">
+                <p>Les technologies </p>
+                <p>Javascript</p>
+                <p>HTML 5</p>
+                <p>CSS 3</p>
+                <p>PHP</p>
+                <p>MYSQL</p>
+                <p>Git</p>
+                <p>GitHub</p>
+                <p>Adobe Photoshop</p>
+                <p>Power Point</p>
+            </div>   
+        </div>
+        
+            <div class="bloc-cv">
+                <p>Vous pouvez télécharger mon cv en format PDF sur ce lien</p>
+                <a href="./doc/cv-amanda-taddei.zip" class="btn-purple-dark"><i class="fas fa-download"></i></a>
+            </div>
+        
 
-    <div class="row mt-5 no-speech">
-      <div class="col-md-12 col-sm-12 d-flex justify-content-center">
-        <p id="essential">« Pas de grand discours, juste l'essentiel » - Amanda Taddei</p>
-      </div>
-    </div>
+        <div class="title-section">
+            <h1 class="h1light">Contact</h1>
+        </div>
 
-    <div class="bloc-cv">
-      <div class="title-section">
-        <h1>Mon Cv</h1>
-    </div>
-      <div>
-        <img id="mycv" src="img/cv-amanda-taddei.pdf" alt="Mon cv">
-      </div>
+        <div class="title-section">
+            <div class="formulaire">
+                <form action="" methode='post'>
+                    <label for="firstname">Votre nom</label></br>
+                    <input type="text" id="firstname"></br>
+                    <label for="name">Votre prenom</label></br>
+                    <input type="text" id="name"></br>
+                    <label for="name">Votre e-mail</label></br>
+                    <input type="text" id="mail"></br>
+                    <label for="textarea">Votre message</label></br>
+                    <textarea id="textarea" name="textarea" rows="5" col="10"></textarea></br>
+                    <button class="btn-purple">Envoyer</button>
+                </form>
+            </div>
+        </div>
 
-      <div class="col-md-5 col-sm-12 mt-5 bloc-cv" style="background-color:#ffffff;">
-        <p>Vous pouvez télécharger mon cv en format PDF sur ce lien</p>
-        <a href="https://amandat.promo-73.codeur.online/portfolio/doc/cv-amanda-taddei.zip" class="btn btn-purple"><i class="fas fa-download"></i></a>
-      </div>
-    </div>
-
-    <div class="title-section">
-      <div class="contact">
-        <h1 class="card-title">Me Contacter</h1>
-      </div>
-    </div>
-    <div>
-      <iframe src="https://tally.so/embed/w7RNa3" width="100%" height="500" frameborder="0" marginheight="0"
-        marginwidth="0" title="null"></iframe>
-    </div>
-  </main>
+    </main>
     <footer>
-      <div>
-        <p>Amanda Taddei - Portfolio V2 - 2021</p>
-      </div>
+        <div>
+            <p>Amanda Taddei - Portfolio V3 - 2021</p>
+        </div>
     </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
